@@ -1,0 +1,264 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-size: century  blue; 
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/4.jpg);
+    height:110vh;
+    background-size:cover;
+    background-position:center;
+  } 
+  .header {
+    background-color: #0d226b;
+    height:70px;
+  }  
+  ul{
+    float: right;
+    list-style-type:none;
+    margin-top:25px;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid #fff;
+    transition:0.6s ease;
+  }
+  ul li a:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  ul li.active a{
+    background-color: #fff;
+    color: #000;
+  }
+  .logo img{
+    float: left;
+    width: 120px;
+    height: auto;
+  }
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .title h1{
+    color:#fff;
+    font-size: 60px;
+  }
+  .button{
+    position:absolute;
+    top:90%;
+    left:80%;
+    transform:translate(-50%,-50%);
+  }
+  .btn{
+    border:1px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration:none;
+    transition:0.6s ease;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* body */
+  .body {
+    margin-top: 10px;
+  }
+  .loadmore {
+    width: 100%;
+  }
+  .btn-curved {
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: auto;
+  }
+  .contactus {
+    min-height: 300px;
+  }
+  .fullheight {
+    height: auto
+  }
+  .webbg {
+    background-color: #0d226b;
+  }
+  .ashbg {
+    background-color: #f2f2f2;
+  }
+  .contact-icon-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white
+  }
+  .label {
+    font-size: small;
+    margin-bottom: unset;
+  }
+  .input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+  }
+  .label-white {
+    font-size: small;
+    color: white;
+    margin-bottom: unset;
+  }
+  .input-border-white {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+  }
+.input-email{
+	id:e-mail;
+	name:email;
+}
+  .textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+  }
+  .loginpage {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .form {
+    background-color: rgb(13 110 253 / 37%) ;
+    padding: 15px 10px;
+    border-radius: 2px;
+    height: 300px;
+  }
+  .forgetpsw {
+    color: whitesmoke;
+    font-size: 13px;
+    margin-bottom: 12px;
+  
+  
+  
+  
+  }
+  .forgetpsw:hover {
+    color: whitesmoke;
+  }
+  .m-t-10 {
+    margin-top: 10px;
+  }
+  .formparagraph {
+    font-size: 15px;
+    margin-top: 35px;
+    width: 80%;
+  }
+  .title h2{
+    color:#fff;
+    font-size: 30px;
+  }
+  .ul {
+    color:#000;
+    font-size: 30px;
+
+  }
+  .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: left;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.4;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #00ff00;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .choose
+  {
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 850px;
+    color: whitesmoke;
+
+    border-color: whitesmoke;
+  
+  border-radius: 5px;
+
+  }
+ .choose button
+ {
+   width: 100px;
+   height: 30px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   background-color: rgba(0, 153, 255, 0.788);
+   color: white;
+ }
+ .choose button:hover
+ {
+   background-color: whitesmoke;
+   color: black;
+ }
+.form
+{
+  display: none;
+  margin-left: 800PX;
+  width: 400px;
+
+}
+
+#uss
+{
+  width: 50px;
+  margin-top: 10px;
+  display: block;
+}
+#touch
+{
+  margin-top: -600px;
+}
+#signup
+{
+  width: 370px;
+  position: absolute;
+  margin-left: 7px;
+  margin-top: -2px;
+}

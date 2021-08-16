@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: century  blue; 
+  }
+  header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/6.jpg);
+    height:110vh;
+    background-size:cover;
+    background-position:center;
+  } 
+  .header {
+    background-color: #0d226b;
+    height:70px;
+  }  
